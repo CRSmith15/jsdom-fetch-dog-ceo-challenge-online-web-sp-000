@@ -14,7 +14,7 @@ function dogPics(dogs){
     console.log(dog)
     const goodBoyContainer = document.querySelector('#dog-image-container')
     const goodBoy= document.createElement('img')
-    goodBoy.src = dog 
+    goodBoy.src = dog
     goodBoyContainer.appendChild(goodboy)
   })
 }
