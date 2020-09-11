@@ -1,5 +1,5 @@
 console.log('%c HI', 'color: firebrick')
-et breeds = [];
+let breeds = [];
 
 document.addEventListener('DOMContentLoaded', function () {
   loadImages();
@@ -70,4 +70,4 @@ function addBreed(breed) {
 
 function updateColor(event) {
   event.target.style.color = 'lightgreen';
-} 
+}
