@@ -69,5 +69,5 @@ function addBreed(breed) {
 }
 
 function updateColor(event) {
-  event.target.style.color = 'lightgreen';
-}
+  event.target.style.color = 'darkgreen';
+} 
